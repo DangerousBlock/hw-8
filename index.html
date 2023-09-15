@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style> 
+   h3:first-child{
+   color: pink;
+ }
+
+ #greycol {
+    color: grey;
+ }
+ .text-box div p {
+    color: red;
+}
+ .yellow{
+    color: yellow; 
+ }
+ p:nth-child(7) {
+    color: green;
+}
+
+.monday li:nth-child(even){
+    color: tomato;
+}
+
+
+
+.wednesday li:nth-child(-n+4){
+    font-size: 50px;
+}
+
+li:only-child{
+    font-size: 100px;
+}
+
+.friday li:nth-child(n+2){
+    color: teal;
+}
+
+.friday li:first-child{
+    font-size: 100px;
+}
+
+button:disabled{
+    background-color: aqua;
+    font-size: 50px;
+}
+
+a:hover{
+    color: aqua;
+}
+
+ </style>
+<body>
+    <div class="text-box">
+        <h3>Пофарбуйте мене в рожевий колір (color:pink).</h3>
+        <p>Даний елемент має залишитись неоформленим.</p>
+        <p id='greycol'>Пофарбуйте мене в сірий колір (color:grey).</p>
+        <div>Даний елемент має залишитись неоформленим.</div>
+        <div><p>Пофарбуйте мене в червоний колір (color:red).</p></div>
+        <h3>Даний елемент має залишитись неоформленим.</h3>
+        <p>Пофарбуйте мене в зелений колір (color:green).</p>
+       <p class='yellow'>Пофарбуйте мене в жовтий колір (color:yellow).</p>
+    </div>
+
+
+    <div>
+        <ul class="monday">
+            <li><button disabled>Математика</button></li>
+            <li><a href="">Математика</a></li>
+            <li>Математика</li>
+            <li>Математика</li>
+            <li>Математика</li>
+        </ul>
+        <ul class="tuesday">
+            <li>Математика</li>
+        </ul>
+        <ul class="wednesday">
+            <li>Математика</li>
+            <li>Математика</li>
+            <li>Математика</li>
+            <li>Математика</li>
+            <li>Математика</li>
+        </ul>
+        <ul class="thursday">
+            <li>Математика</li>
+            <li>Математика</li>
+            <li>Математика</li>
+            <li>Математика</li>
+            <li>Математика</li>
+        </ul>
+        <ul class="friday">
+            <li>Математика</li>
+            <li>Математика</li>
+            <li>Математика</li>
+            <li>Математика</li>
+            <li>Математика</li>
+        </ul>
+    </div>
+</body>
+</html>
